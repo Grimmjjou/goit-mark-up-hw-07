@@ -131,6 +131,7 @@ ul
 	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 	color: var(--text);
+	display: flex;
 }
 
 
@@ -141,6 +142,12 @@ ul
 	background-image: linear-gradient(rgba(47, 48, 58, 0.4),
 	rgba(47, 48, 58, 0.4)), url(../images/hero-photo.jpg);
 	background-size: cover;
+	width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
 }
 
 
@@ -250,12 +257,12 @@ ul
   .benefits-item h3 {
 	font-size: 14px;
 	line-height: 1.14;
-  
+	color: var(--mainh2);
 	margin-bottom: 10px;
   }
   
   .benefits-item p {
-	color: var(--secondary-color);
+	color: var(--text);
 	font-size: 14px;
 	line-height: 1.71;
   }
@@ -442,8 +449,7 @@ ul
   }
   
   .clients-icon {
-	width: 106px;
-	height: 60px;
+
 	fill: var(--colorsvg);
   }
   
@@ -486,6 +492,7 @@ ul
 }
 .flex-footer{
 	display: flex;
+	align-items: baseline;
 }
 
 .map {
@@ -534,11 +541,12 @@ line-height: calc(16 /  14);
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-bottom: 20px;
+
 }
 
 .follow-log{
 	margin-left: 70px;
-	margin-top: 12px;
 }
 
 .footer-posil{

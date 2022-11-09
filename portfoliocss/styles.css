@@ -94,7 +94,6 @@
 	
 	.link{
 		text-decoration: none;
-
 	}
 	.list {
 		list-style: none;
@@ -115,7 +114,7 @@
 		line-height: calc(16 / 14);
 		letter-spacing: 0.02em;
 		color: var(--mainh2);
-		display: block;
+		display: inline-block;
 
 	}
 	
@@ -126,6 +125,7 @@
 		letter-spacing: 0.02em;
 		padding-top: 32px;
 		padding-bottom: 32px;
+		display: block;
 	
 	}
 	
@@ -135,6 +135,7 @@
 		line-height: calc(16 / 14);
 		letter-spacing: 0.02em;
 		color: var(--text);
+		display: flex;
 	}
 	
 .filter-list{
@@ -206,6 +207,9 @@
 .item{
 	margin-right: 30px;
 	margin-bottom: 30px;
+	display: block;
+	justify-content: center;
+
 }
 .item:hover{
 	box-shadow:  1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -284,6 +288,7 @@
 	}
 	.flex-footer{
 		display: flex;
+		align-items: baseline;
 	}
 	
 	.map {
@@ -332,11 +337,11 @@
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	margin-bottom: 20px;
 	}
 	
 	.follow-log{
 		margin-left: 70px;
-		margin-top: 12px;
 	}
 	
 	.footer-posil{
