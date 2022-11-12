@@ -14,53 +14,46 @@
 	</head>
 	<body class="body">
 		<header class="header">
-			<div class="header-container container">
-				<nav class="header-nav">
-					<a class="header-logo link" href="">
-						<span class="web">Web</span><span class="studio">Studio</span>
-					</a>
-					<ul class="header-list list">
-						<li class="current heder-list-item">
-							<a class="header-list-link header-link list-active-link link " href="index.html" >
-								Студія
-							</a>
-						</li>
-						<li class="posil heder-list-item">
-							<a class="header-list-link  header-link list-active-link link" href="portfolio.html">Портфоліо</a>
-						</li>
-						<li class="heder-list-item" >
-							<a class="header-list-link header-link list-active-link link" href="">Контакти</a>
-						</li>
-					</ul>
-					
+			<div class="container header-container">
+				<nav class="site-nav">
+				  <a href="./index.html" class="logo link"> <span>Web</span>Studio</a>
+				  <ul class="nav-list list">
+					<li class="nav-item">
+					  <a href="./index.html" class="nav-link link current">Студія</a>
+					</li>
+					<li class="nav-item">
+					  <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
+					</li>
+					<li class="nav-item"><a href="#" class="nav-link link">Контакти</a></li>
+				  </ul>
 				</nav>
-				<ul class="list header-contact box">
-					<li class="adress-logo">
-						<a class="header-mail-tel-link contact header-link list-active-link link" href="mailto:info@devstudio.com">
-							<svg class="contact-logo" width="16" height="12">
-								<use href="./images/icons.svg#icon-envelope"></use>
-							</svg>
-							info@devstudio.com
-						</a>
-					</li>
-					<li class="adress-header adress-logo box">
-						<a class="header-mail-tel-link header-link list-active-link link" href="tel:+380961111111">
-							<svg class="contact-logo" width="10" height="16">
-								<use  href="./images/icons.svg#icon-smartphone"></use>
-							</svg>
-							<span>+38 096 111 11 11</span>
-						</a>
-					</li>
+				<ul class="site-contacts list">
+				  <li class="contacts-item">
+					<a href="mailtu:info@devstudio.com" class="contacts-link link">
+					  <svg class="contacts-icon icon-mail" >
+						<use href="./images/icons.svg#icon-envelope"></use>
+					  </svg>
+					  <span>info@devstudio.com</span>
+					</a>
+				  </li>
+				  <li class="contacts-item">
+					<a href="tel:+380961111111" class="contacts-link link">
+					  <svg class="contacts-icon icon-tel">
+						<use href="./images/icons.svg#icon-smartphone"></use>
+					  </svg>
+					  <span>+38 096 111 11 11</span>
+					</a>
+				  </li>
 				</ul>
-			</div>
+			  </div>
 			
 		</header>
 		<main>
 			<section class="hero">
 				<div class="container">
 					<h1 class="section-hero">Ефективні рішення для вашого бізнесу</h1>
-					<button class="main-button button" type="button"><span class="batton-text">Замовити послугу</span> </button></div>
-				
+					<button class="main-button button" data-modal-open type="button"><span class="batton-text">Замовити послугу</span> </button>
+				</div>
 			</section>
 			<section class="benefits">
 				<div class="container">
@@ -110,12 +103,15 @@
 					<h2 class="title work-mob">Чим ми займаємося</h2>
 				<ul class="mob-list">
 					<li class="list">
+						<div class="work-bg work-text-first"><p class="work-text ">Десктопні додатки</p></div>
 						<img src="images/box1.jpg" width="370" alt="компютер">
 					</li>
 					<li class="list picture-work">
+						<div class="work-bg work-text-second"><p class="work-text ">Мобільні додатки</p></div>
 						<img src="images/box2.jpg" width="370" alt="телефон">
 					</li>
 					<li class="list">
+						<div class="work-bg work-text-thirst"><p class="work-text">Дизайнерські рішення</p></div>
 						<img src="images/box3.jpg" width="370" alt="планшет">
 					</li>
 				</ul>
@@ -346,6 +342,18 @@
 				</div>
 		</address>
 		</div>
-		</footer>
+	</footer>
+	<div class="backdrop is-hidden" data-modal>
+		<div class="modal ">
+			<button class="modal-close close-sign" data-modal-close>
+				<svg class="modal-close-button" width="18" height="18">
+					<use href="./images/icons.svg#icon-close"></use>
+				</svg>
+
+			</button>
+		</div>
+	</div>
+	<script src="./js/modal.js"></script>
 	</body>
+
 </html>
