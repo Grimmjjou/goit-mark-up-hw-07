@@ -970,7 +970,7 @@ input.input-modal:focus {
 	border-color: transparent;
 	background-color: var(--currentColor);
 	border: var(--currentColor);
-	background-image: url(./images/icon-check.svg);
+	background-image: url(/images/icon-check.svg);
 	background-size: contain;
 	background-origin: border-box ;
 }
