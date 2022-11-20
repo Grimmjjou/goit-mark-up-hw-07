@@ -410,11 +410,18 @@
 				</div>
 				<label for="" ><span class="label-text">Коментар</span><textarea name="user-coment" placeholder="Введіть текст" class=" textarea"></textarea></label>
 			
-				<label class="check-hidden">
-					<input type="checkbox" name="accept" value="reading"class="checkbox" />
-					<span class="checkbox-icon"></span>
-					<span class="text-accept">Погоджуюся з розсилкою та приймаю <a href class="contract">Умови договору</a></span>
-				</label>
+				<div class="checkbox-agree">
+					<input 
+					id="checkbox" 
+					type="checkbox" 
+					name="checkbox" 
+					value="agree"
+					class="checkbox" />
+					<label for="checkbox" class="check-hidden">
+						<span class="text-accept">Погоджуюся з розсилкою та приймаю <a href class="contract">Умови договору</a></span>
+					</label>
+				</div>
+					
 				<div class="last-button">
 					<button type="submit" class="button-modal">Відправити</button>
 				</div>  
