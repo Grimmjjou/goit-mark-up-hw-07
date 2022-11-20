@@ -962,7 +962,30 @@ input.input-modal:focus {
 
 }
 
-.check-hidden::before{
+.check-hidden .icon-wrapper{
+	width: 16px;
+	height: 15px;
+	border: 2px solid var(--mainh2);
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.check-hidden .icon-vector{
+	fill: transparent;
+}
+
+.checkbox-agree input:checked + .check-hidden .icon-wrapper{
+	background-color: var(--currentColor);
+	border: none;
+}
+
+.checkbox-agree input:checked + .check-hidden .icon-vector{
+	fill: var(--backgroundcolor);
+}
+
+/* .check-hidden::before{
 	content:"";
 	display: flex;
 	width: 16px;
@@ -977,7 +1000,7 @@ input.input-modal:focus {
 	background-image: url(/images/check.svg);
 	background-repeat: no-repeat;
 	background-position: center;
-}
+} */
 
 /* portfolio-css */
 
