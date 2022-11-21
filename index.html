@@ -300,7 +300,7 @@
 		</main>
 		<footer class="down">
 			<div class="container flex-footer">
-				<div>
+			              <div>
 				<a class="footer-logo link" href="">
 				<span class="web">Web</span><span class="footer-studio">Studio</span>
 					</a>
@@ -323,7 +323,7 @@
 							<a class="mail-tel active-footer pasive-footer  link fix" href="tel:+380961111111">+38 096 111 11 11</a>
 						</li>
 					</ul>
-				</div>
+				          </div>
 				<div class=" follow-log">
 					<h3 class="follow">ПРИЄДНУЙТЕСЬ</h3>
 					<ul class="footer-posil">
@@ -344,7 +344,8 @@
 				<div class="footer-sign">
 				<p class="text-sign">Підпишіться на розсилку</p>
 				<div class="sign-type">
-					<label for=""><input type="sign-up"
+					<label for="E-mail"><input 
+						id="E-mail"
 						class="sign-up"
 						name="E-mail" 
 						required
@@ -409,22 +410,22 @@
 						<use href="./images/icons.svg#icon-email-black" class="svg-color"></use>
 					</svg>
 				</div>
-				<label for="" ><span class="label-text">Коментар</span><textarea name="user-coment" placeholder="Введіть текст" class=" textarea"></textarea></label>
+				<label for="checkbox" ><span class="label-text">Коментар</span><textarea name="user-coment" placeholder="Введіть текст" class=" textarea"></textarea></label>
 			
 				<div class="checkbox-agree">
 					<input 
 					id="checkbox" 
 					type="checkbox" 
 					name="checkbox" 
-					value="agree"
-					class="checkbox" />
+					class="checkbox" 
+					required/>
 					<label for="checkbox" class="check-hidden">
 						<span class="icon-wrapper">
 							<svg class="icon-vector" width="13" height="10">
 								<use href="./images/icons.svg#icon-vector"></use>
 							</svg>
 						</span>
-						<span class="text-accept">Погоджуюся з розсилкою та приймаю <a href class="contract">Умови договору</a></span>
+						<span class="text-accept">Погоджуюся з розсилкою та приймаю <a href="" ><span class="contract">Умови договору</span></a></span>
 					</label>
 				</div>
 					
