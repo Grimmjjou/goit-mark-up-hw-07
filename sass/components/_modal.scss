@@ -1,0 +1,26 @@
+
+.backdrop.is-hidden .modal  {
+    transform: rotate(-180deg);
+ }
+ 
+ .backdrop{
+     position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     opacity: 1;
+     background-color: $bacdrop;
+     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .is-hidden{
+     opacity: 0;
+     pointer-events: none;
+ }
+ 
+ 
+ 
+ 
+
+ 

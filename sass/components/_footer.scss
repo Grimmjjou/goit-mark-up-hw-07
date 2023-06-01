@@ -1,0 +1,140 @@
+.footer {
+	background: $herobc;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	&__adress{
+		margin-top: 20px;
+	}
+	
+	&__box{
+		display: flex;
+		align-items: baseline;
+	}
+	
+	&__logo {
+		font-family: $font-family-raleway;
+		font-weight: 700;
+		font-size: 26px;
+		line-height: calc(31 / 26);
+		letter-spacing: 0.03em;
+		font-style: initial;
+		color: $currentColor;
+	}
+
+	&__span {
+		color: $backgroundcolor;
+	}
+
+	&__link{
+		margin-top: 20px;
+	}
+	
+	&__first-list {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: calc(24 / 14);
+		letter-spacing: 0.03em;
+		color: $backgroundcolor;
+	}
+
+	&__contacts {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: calc(16 / 14);
+		letter-spacing: 0.02em;
+		font-style: normal;
+		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	&__contacts:last-child{
+		margin-top: 6px;
+	}
+
+	&__contacts:hover {
+		color: $currentColor;
+	}
+
+	&__second-list{
+		margin-top: 9px;
+		margin-bottom: 9px;
+	}
+
+	&__mail-tel {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: calc(24 / 14);
+		letter-spacing: 0.03em;
+		color:$adress;
+	}
+
+
+	&__sign{
+	margin-left: auto;
+	}
+	
+	&__text-sign{
+		font-weight: 700;
+		font-size: 14px;
+		line-height: calc(16 / 14);
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: $backgroundcolor;
+		margin-bottom: 20px;
+		font-style: initial;
+	}
+	
+	&__sign-div{
+		display: flex;
+	}
+	
+	&__input{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: calc(20 / 16);
+		letter-spacing: 0.03em;
+		border: 1px solid $border-footer-input;
+		color: rgba(255, 255, 255, 0.6);
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+		border-radius: 4px;
+		width: 358px;
+		height: 50px;
+		outline: none;
+		background-color: $herobc;
+		padding-left: 16px;
+	
+	}
+	
+	&__input:hover{
+		border:1px solid $currentColor;
+	}
+	
+	&__input:focus {
+		border-color:  $currentColor;
+	}
+	
+	&__sign-icon{
+		margin-left: 10px;
+		cursor: pointer;
+	}
+
+	&__text{
+		font-weight: 700;
+	font-size: 14px;
+	line-height: calc(16 /  14);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $backgroundcolor;
+	margin-bottom: 20px;
+	font-style: initial;
+	}
+	
+	&__social{
+	margin-left: 70px;
+}
+}
+
+
+
+
+

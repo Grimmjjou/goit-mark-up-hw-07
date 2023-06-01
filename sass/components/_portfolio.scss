@@ -1,0 +1,25 @@
+.main{
+	padding-top: 94px;
+	padding-bottom: 94px;
+	border: none;
+
+	&__list-portfolio{
+		margin-right: 8px;
+	}
+
+	&__portfolio{
+		font-weight: 700;
+		font-size: 36px;
+		line-height: calc(42 / 36);
+		letter-spacing: 0.03em;
+		color: $mainh2;
+	}
+
+	&__link-portfolio{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	
+}
+
